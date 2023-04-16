@@ -1,0 +1,176 @@
+body{
+    height: 100vh; 
+    width: 100%; 
+    margin: 0%;
+} 
+
+body{ 
+    background-image: url("images/background\ image\ new.png");
+    background-color: #000000;  
+    background-repeat: no-repeat;
+    background-size: 1400px 635px;
+    
+    
+ }
+ body nav img{ 
+    width: 266px;
+    height: 116.51px;
+ }  
+ 
+form h1{   
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+color: #DCDCDC;
+position: absolute; 
+top: 20%; 
+left: 26%; 
+ }  
+  
+ body input{ 
+    box-sizing: border-box;
+    width: 400px;
+    height: 50px;
+    border: 3px solid #FCF291;
+    backdrop-filter: blur(200px);
+    border-radius: 38px;   
+    text-decoration: none;
+    background-color:white;
+ } 
+ .email{ 
+    position: absolute; 
+    top: 42%; 
+    left: 16%; 
+
+ }  
+ .pass{
+    position: absolute; 
+    top: 54%; 
+    left: 16%;
+ }
+ body button{
+    background: #FFCD2D;
+    border-radius: 38px;
+    width: 400px;
+    height: 50px;  
+    position: absolute;
+    left: 16%;
+    top: 70%; 
+ } 
+body button a
+{  
+font-style: normal;
+font-weight: 700;
+font-size: 24px;  
+color: #000000;
+text-decoration: none;
+} 
+body p{   
+   
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(255, 255, 255);
+    position: absolute; 
+    right: 2%;  
+    top: 90%;
+}
+.tinvalid
+{
+   position: absolute;
+   width: 521px;
+   height: 80px;
+   left: 270px;
+   top: 730px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   color: #9C1801;
+}
+@media only screen and (max-width:600px){
+   body{
+      width: 100%;
+      height:100vh;
+      background-image: url("images/background\ image\ new.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+   }
+   .nav{
+      width: 150px;
+      height:80px;
+      left: 2px;
+      top:2px;
+   }
+   .login{
+      top:150px;
+      left:120px;
+      font-size: 38px;
+   }
+   .email{
+      top:245px;
+      left: 40px;
+      width: 250px;
+      height:39.7px;
+   }
+   .pass{
+      top:300px;
+      left: 40px;
+      width: 250px;
+      height:39.7px;
+   }
+   .temail{
+      left: 15px;
+      width: 200px;
+      height:20px;
+      top:10px;
+      font-size: 16px;
+   }
+   .tpassword{
+      left: 15px;
+      width: 240px;
+      height:40px;
+      top:0px;
+      font-size: 16px;
+   }
+   .button{
+      top:400px;
+      left: 40px;
+      width: 250px;
+      height:39.7px;
+      
+   }
+   .logint{
+      left: 7px;
+      width: 240px;
+      height:40px;
+      top:8px;
+      font-size: 16px;
+   }
+   /*.invalid {
+      top:450px;
+      left: 40px;
+      width: 250px;
+      height:39.7px;
+    }*/
+    .tinvalid{
+      left: 85px;
+      width: 240px;
+      height:40px;
+      top:450px;
+      font-size: 16px;
+      color: red;
+       
+    }
+   footer{
+      bottom:0%;
+      left:150px;
+   }
+ .btn{
+      top:355px;
+      left: 40px;
+      width: 250px;
+      height:39.7px;
+ }
+ nav{
+
+ }
+}

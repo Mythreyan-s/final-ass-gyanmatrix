@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Wizard house login</title> 
+     <script src="login.js"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">  
+     <link rel="shortcut icon" href="Logo-login.png" type="image/x-icon"> 
+     <link rel="stylesheet" href="login css.css">
+</head>
+
+<body class="main">  
+ <nav>
+    <img class="nav"src="images/wizard house logo.png" alt="Wizard house icon">
+ </nav> 
+    <form class="box" action="staff.html" method="post" onclick="return validateForm()"> 
+        <h1>Login</h1>  
+        <br>
+        <input type=" email" placeholder="your email" required class="email" id="email">  
+        <br>
+        <input type="password" placeholder="your password" required class="pass" id="passward"> 
+        <div>
+            <button class="btn">
+                <a href="http://127.0.0.1:5500/student.html">Login</a>
+            </button>
+        </div>
+        <br>
+        <br>
+        <p class="tinvalid" id="chk" style="color: red;display: none;">Invalid Credentials</p>
+    </form>  
+    <p>© All rights reserved.</p>
+</body>
+</html>

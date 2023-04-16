@@ -1,0 +1,156 @@
+body{
+    background: #c4c4b0;  
+    font-family: 'Pirata One','san serf'; 
+    align-items: center;  
+    justify-content: center;
+}  
+
+.cnt{   
+    box-sizing: border-box; 
+    box-shadow: inset  0 0 30px black;
+    height: 450px; 
+    width: 700px;  
+    bottom: -20%;;
+    background: #E8AF17; 
+
+    position: relative; 
+    border-radius: 50px; 
+    left: 0px; 
+    top:0px;
+    
+    border:  6px solid #000000;
+   color: #DCDCDC;
+
+} 
+.container {
+    position: absolute;
+    left: 37.91%;
+    right: 37.72%;
+    top: -21%;
+    bottom: 70.57%;
+    
+}
+h1{
+    position:absolute;
+    left: 20px;
+    top: 10px;
+}
+.ul{
+    position: relative;
+    left:20px;
+    top:100px;
+}
+
+.houselogo {
+    height: 100px;
+    margin-left: 420px;
+    
+}
+
+.g{
+    position: absolute; 
+    top: 2%; 
+    right: 3%;
+    
+}  
+ul{
+    list-style-type: none; 
+    margin: 10px;
+  padding: 0;
+  align-items:center;
+  justify-items: end;
+}  
+h1{
+    text-align: center; 
+    left: 10%;
+}
+th, td{
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 100px;
+  }
+  .cnt2{
+    box-sizing: border-box; 
+    box-shadow:   0 0 300px #dfc072;
+    height: 450px; 
+    width: 700px;  
+    bottom: -20%;;
+    
+
+    position: relative; 
+    border-radius: 50px; 
+    left: 260px; 
+    top:15px;
+  }
+  @media only screen and ( max-width:600px){
+    body{
+        background: #c4c4b0; 
+        font-family: 'Pirata One','san serf'; 
+        align-items: center;  
+        justify-content: center;
+    }  
+    .nav{
+     width:130px;
+     
+    }
+    .pic{
+        width:50px;
+        position: absolute;
+        left: 33.65%;
+        right: 33.33%;
+        top: 15.79%;
+        bottom: 64.09%;
+    }
+    .cnt{   
+        box-sizing: border-box; 
+        box-shadow: inset  0 0 30px black;
+        background: #E8AF17; 
+         border-radius: 50px; 
+        left: 0px; 
+        top:0px;
+        Width:293.81px;
+        Height:572.85px;
+       Top:62.57px;
+       Left:10.6px;
+        border:  6px solid #000000;
+       color: #DCDCDC;
+    
+    } 
+    .container {
+        
+      left: 40.32%;
+       right: 36.19%;
+       top: 0.46%;
+       bottom: 86.98%;
+       width:74px;
+    }
+    .cnt2{
+        box-sizing: border-box; 
+        box-shadow:   0 0 300px #dfc072;
+        height: 200px; 
+        width: 100px;  
+        bottom: -20%;
+        
+    
+        position: relative; 
+        border-radius: 50px; 
+        left: 0px; 
+        top:0px;
+    }
+    ul{
+        list-style-type: none; 
+        margin: 0px;
+        padding: 0;
+        align-items:center;
+        justify-items: end;
+        margin-top: 30%;
+        margin-bottom:0%;
+
+    }  
+    .h1{
+            text-align: center; 
+            left: 0%;
+    }
+
+  }
